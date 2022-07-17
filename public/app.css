@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  text-align: center;
+}
+
+#name {
+  padding: 5px;
+  margin: 10px 0;
+}
+
+#email {
+  padding: 5px;
+  margin: 10px 0;
+}
+
+#password {
+  padding: 5px;
+  margin: 10px 0;
+  margin-right: 23px;
+}

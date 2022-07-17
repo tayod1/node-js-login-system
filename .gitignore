@@ -1,0 +1,6 @@
+# where you place files you don't want to commit
+.env
+node_modules
+package.json
+/.vscode
+.DS_Store

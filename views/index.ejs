@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="app.css" />
+
+<!-- name is name from server.js file in render function -->
+<h1>Hi <%= name %></h1>
+<!-- _method allows us to override the post method with the delete method created in our server.js file-->
+<form action="/logout?_method=DELETE" method="POST">
+  <button type="submit">Log Out</button>
+</form>
